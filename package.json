@@ -1,0 +1,25 @@
+{
+  "name": "autocomplete-math",
+  "main": "./lib/main",
+  "version": "0.2.0",
+  "description": "Atom autocomplete package that solves math expressions.",
+  "keywords": [
+    "autocomplete",
+    "provider",
+    "math",
+    "solver"
+  ],
+  "repository": "https://github.com/lonekorean/atom-autocomplete-math",
+  "author": "Will Boyd <will@codersblock.com> (http://codersblock.com)",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
