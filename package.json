@@ -21,5 +21,9 @@
         "2.0.0": "getProvider"
       }
     }
+  },
+  "dependencies": {
+    "loophole": "^1.1.0",
+    "mathjs": "^3.12.0"
   }
 }
