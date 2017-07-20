@@ -9,3 +9,13 @@ Atom autocomplete package that solves math expressions.
 Just type a math expression wrapped in parenthesis. Autocomplete will kick in with the solution.
 
 This package uses [math.js](http://mathjs.org/) so it can handle [many types of expressions](http://mathjs.org/docs/expressions/syntax.html) (arithmetic, boolean operations, unit conversions, etc.).
+
+## Installation
+
+Go into Atom's Settings/Preferences &gt; Install &gt; search for `autocomplete-math`
+
+Or install via the command line:
+
+```
+apm install autocomplete-math
+```
